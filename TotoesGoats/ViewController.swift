@@ -281,7 +281,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         let faces = faceDetector.featuresInImage(ciImage,
             options:[CIDetectorImageOrientation: 6]) as! [CIFaceFeature]
 
-        //print("\(faces.count) faces detected")
+        //print("\(faces.count) faces detected") //
 
         // Draw rectangles on detected faces
         UIGraphicsBeginImageContext(ciImage.extent.size)
