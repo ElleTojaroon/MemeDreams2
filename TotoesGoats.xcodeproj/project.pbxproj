@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		4B99E02B1CAF8D3300C88208 /* goat3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B99E02A1CAF8D3300C88208 /* goat3.png */; };
+		4B99E0881CB145B900C88208 /* awesome_face.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B99E0841CB145B900C88208 /* awesome_face.png */; };
+		4B99E0891CB145B900C88208 /* me_gusta_by_rober_raik-d4clrpu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B99E0851CB145B900C88208 /* me_gusta_by_rober_raik-d4clrpu.png */; };
+		4B99E08A1CB145B900C88208 /* megusta.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B99E0861CB145B900C88208 /* megusta.png */; };
+		4B99E08B1CB145B900C88208 /* pepe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B99E0871CB145B900C88208 /* pepe.png */; };
+		4B99E08D1CB146D700C88208 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99E08C1CB146D700C88208 /* UserViewController.swift */; };
+		4B99E08F1CB1472F00C88208 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99E08E1CB1472F00C88208 /* User.swift */; };
+		4BDEBBBA1CB148B7004F0D8C /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEBBB91CB148B7004F0D8C /* DrawView.swift */; };
+		4BDEBBBC1CB148C9004F0D8C /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEBBBB1CB148C9004F0D8C /* Line.swift */; };
 		656829C61C78E418004BC281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656829C51C78E418004BC281 /* AppDelegate.swift */; };
 		656829C81C78E418004BC281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656829C71C78E418004BC281 /* ViewController.swift */; };
 		656829CB1C78E418004BC281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656829C91C78E418004BC281 /* Main.storyboard */; };
 		656829CD1C78E418004BC281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656829CC1C78E418004BC281 /* Assets.xcassets */; };
 		656829D01C78E418004BC281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656829CE1C78E418004BC281 /* LaunchScreen.storyboard */; };
 		656829D81C7907F7004BC281 /* goat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 656829D71C7907F7004BC281 /* goat2.png */; };
-		DB6E7BBD1CB04D6D001A8D16 /* me_gusta_by_rober_raik-d4clrpu.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6E7BBC1CB04D6D001A8D16 /* me_gusta_by_rober_raik-d4clrpu.png */; };
-		DB6E7BC11CB05B12001A8D16 /* pepe.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6E7BC01CB05B12001A8D16 /* pepe.png */; };
-		DB6E7BC31CB05C9B001A8D16 /* awesome_face.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6E7BC21CB05C9B001A8D16 /* awesome_face.png */; };
-		DB6E7BC51CB05D03001A8D16 /* megusta.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6E7BC41CB05D03001A8D16 /* megusta.png */; };
+		95FAE336D4FCF073B85FB92E /* Pods_TotoesGoats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53318BA5AD65E5795B54DCDD /* Pods_TotoesGoats.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B99E02A1CAF8D3300C88208 /* goat3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goat3.png; sourceTree = "<group>"; };
+		4B99E0841CB145B900C88208 /* awesome_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesome_face.png; sourceTree = "<group>"; };
+		4B99E0851CB145B900C88208 /* me_gusta_by_rober_raik-d4clrpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_gusta_by_rober_raik-d4clrpu.png"; sourceTree = "<group>"; };
+		4B99E0861CB145B900C88208 /* megusta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megusta.png; sourceTree = "<group>"; };
+		4B99E0871CB145B900C88208 /* pepe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pepe.png; sourceTree = "<group>"; };
+		4B99E08C1CB146D700C88208 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		4B99E08E1CB1472F00C88208 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4BDEBBB91CB148B7004F0D8C /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		4BDEBBBB1CB148C9004F0D8C /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		53318BA5AD65E5795B54DCDD /* Pods_TotoesGoats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TotoesGoats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656829C21C78E418004BC281 /* TotoesGoats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TotoesGoats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656829C51C78E418004BC281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		656829C71C78E418004BC281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,10 +44,8 @@
 		656829CF1C78E418004BC281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		656829D11C78E418004BC281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656829D71C7907F7004BC281 /* goat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goat2.png; sourceTree = "<group>"; };
-		DB6E7BBC1CB04D6D001A8D16 /* me_gusta_by_rober_raik-d4clrpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "me_gusta_by_rober_raik-d4clrpu.png"; path = "../../me_gusta_by_rober_raik-d4clrpu.png"; sourceTree = "<group>"; };
-		DB6E7BC01CB05B12001A8D16 /* pepe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pepe.png; path = ../../pepe.png; sourceTree = "<group>"; };
-		DB6E7BC21CB05C9B001A8D16 /* awesome_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = awesome_face.png; path = ../../awesome_face.png; sourceTree = "<group>"; };
-		DB6E7BC41CB05D03001A8D16 /* megusta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = megusta.png; path = ../../megusta.png; sourceTree = "<group>"; };
+		9A6504432526C0FACDA27FC3 /* Pods-TotoesGoats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotoesGoats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TotoesGoats/Pods-TotoesGoats.debug.xcconfig"; sourceTree = "<group>"; };
+		D59ED5B4E482815EC69C6178 /* Pods-TotoesGoats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TotoesGoats.release.xcconfig"; path = "Pods/Target Support Files/Pods-TotoesGoats/Pods-TotoesGoats.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FAE336D4FCF073B85FB92E /* Pods_TotoesGoats.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +65,8 @@
 			children = (
 				656829C41C78E418004BC281 /* TotoesGoats */,
 				656829C31C78E418004BC281 /* Products */,
+				7176BF0CB197757B1A85558E /* Pods */,
+				D1C5DCBCEA1EA45421059D97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,11 +83,15 @@
 			children = (
 				656829C51C78E418004BC281 /* AppDelegate.swift */,
 				656829C71C78E418004BC281 /* ViewController.swift */,
+				4B99E0841CB145B900C88208 /* awesome_face.png */,
+				4B99E0851CB145B900C88208 /* me_gusta_by_rober_raik-d4clrpu.png */,
+				4B99E08C1CB146D700C88208 /* UserViewController.swift */,
+				4B99E08E1CB1472F00C88208 /* User.swift */,
+				4B99E0861CB145B900C88208 /* megusta.png */,
+				4B99E0871CB145B900C88208 /* pepe.png */,
 				656829D71C7907F7004BC281 /* goat2.png */,
-				DB6E7BBC1CB04D6D001A8D16 /* me_gusta_by_rober_raik-d4clrpu.png */,
-				DB6E7BC01CB05B12001A8D16 /* pepe.png */,
-				DB6E7BC41CB05D03001A8D16 /* megusta.png */,
-				DB6E7BC21CB05C9B001A8D16 /* awesome_face.png */,
+				4BDEBBB91CB148B7004F0D8C /* DrawView.swift */,
+				4BDEBBBB1CB148C9004F0D8C /* Line.swift */,
 				4B99E02A1CAF8D3300C88208 /* goat3.png */,
 				656829C91C78E418004BC281 /* Main.storyboard */,
 				656829CC1C78E418004BC281 /* Assets.xcassets */,
@@ -82,6 +101,23 @@
 			path = TotoesGoats;
 			sourceTree = "<group>";
 		};
+		7176BF0CB197757B1A85558E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A6504432526C0FACDA27FC3 /* Pods-TotoesGoats.debug.xcconfig */,
+				D59ED5B4E482815EC69C6178 /* Pods-TotoesGoats.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1C5DCBCEA1EA45421059D97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53318BA5AD65E5795B54DCDD /* Pods_TotoesGoats.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 656829D41C78E418004BC281 /* Build configuration list for PBXNativeTarget "TotoesGoats" */;
 			buildPhases = (
+				E60F1F697239EF3160CC9830 /* Check Pods Manifest.lock */,
 				656829BE1C78E418004BC281 /* Sources */,
 				656829BF1C78E418004BC281 /* Frameworks */,
 				656829C01C78E418004BC281 /* Resources */,
+				390E86874447FE15E86A7B34 /* Embed Pods Frameworks */,
+				81D82142DFCA1FE0803BAA5C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -114,7 +153,7 @@
 				TargetAttributes = {
 					656829C11C78E418004BC281 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = A7BXCY633B;
+						DevelopmentTeam = 68C2CB8FC3;
 					};
 				};
 			};
@@ -141,26 +180,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB6E7BBD1CB04D6D001A8D16 /* me_gusta_by_rober_raik-d4clrpu.png in Resources */,
-				DB6E7BC51CB05D03001A8D16 /* megusta.png in Resources */,
-				DB6E7BC11CB05B12001A8D16 /* pepe.png in Resources */,
+				4B99E0881CB145B900C88208 /* awesome_face.png in Resources */,
+				4B99E0891CB145B900C88208 /* me_gusta_by_rober_raik-d4clrpu.png in Resources */,
+				4B99E08B1CB145B900C88208 /* pepe.png in Resources */,
 				4B99E02B1CAF8D3300C88208 /* goat3.png in Resources */,
 				656829D01C78E418004BC281 /* LaunchScreen.storyboard in Resources */,
+				4B99E08A1CB145B900C88208 /* megusta.png in Resources */,
 				656829D81C7907F7004BC281 /* goat2.png in Resources */,
 				656829CD1C78E418004BC281 /* Assets.xcassets in Resources */,
-				DB6E7BC31CB05C9B001A8D16 /* awesome_face.png in Resources */,
 				656829CB1C78E418004BC281 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		390E86874447FE15E86A7B34 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TotoesGoats/Pods-TotoesGoats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D82142DFCA1FE0803BAA5C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TotoesGoats/Pods-TotoesGoats-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E60F1F697239EF3160CC9830 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		656829BE1C78E418004BC281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B99E08F1CB1472F00C88208 /* User.swift in Sources */,
+				4BDEBBBA1CB148B7004F0D8C /* DrawView.swift in Sources */,
 				656829C81C78E418004BC281 /* ViewController.swift in Sources */,
+				4BDEBBBC1CB148C9004F0D8C /* Line.swift in Sources */,
+				4B99E08D1CB146D700C88208 /* UserViewController.swift in Sources */,
 				656829C61C78E418004BC281 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,13 +363,14 @@
 		};
 		656829D51C78E418004BC281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6504432526C0FACDA27FC3 /* Pods-TotoesGoats.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TotoesGoats/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JamesWong.TotoesGoats;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CornellAppDev.TotoesGoats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -286,13 +378,14 @@
 		};
 		656829D61C78E418004BC281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59ED5B4E482815EC69C6178 /* Pods-TotoesGoats.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TotoesGoats/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JamesWong.TotoesGoats;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CornellAppDev.TotoesGoats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
