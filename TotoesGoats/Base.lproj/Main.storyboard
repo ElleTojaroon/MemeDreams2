@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TotoesGoats" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7d-Fg-B8f">
+                                <rect key="frame" x="256" y="422" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.2275036573" green="0.5323064327" blue="0.99501365419999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="ZLh-6g-OX4"/>
+                                    <constraint firstAttribute="width" constant="90" id="sRm-YR-hdS"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4NY-wS-FgY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1AU-U2-979">
+                                <rect key="frame" x="20" y="20" width="122" height="51"/>
+                                <color key="backgroundColor" red="1" green="0.72871734774578245" blue="0.10487764877069294" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="51" id="aZA-Bt-iSD"/>
+                                    <constraint firstAttribute="width" constant="122" id="vJ3-Gt-neY"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="122" id="vZX-U2-0Sm"/>
+                                    <constraint firstAttribute="height" constant="51" id="z7d-mV-384"/>
+                                </constraints>
+                                <state key="normal" title="Face detection">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="faceFilterSwitchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XTN-aT-wNa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMz-sg-bra">
+                                <rect key="frame" x="20" y="261" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="eYG-aA-yh2"/>
+                                    <constraint firstAttribute="height" constant="65" id="z2Z-tW-Rjz"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="pepe.png"/>
+                                <connections>
+                                    <action selector="pepeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RqM-KT-SNx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dtx-N3-vQR">
+                                <rect key="frame" x="515" y="261" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="2mt-IP-MCX"/>
+                                    <constraint firstAttribute="width" constant="65" id="oV5-im-wSS"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="awesome_face.png"/>
+                                <connections>
+                                    <action selector="afaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pCz-iP-qiG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rh-rN-A5j">
+                                <rect key="frame" x="269" y="335" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="6CT-Dz-7En"/>
+                                    <constraint firstAttribute="width" constant="65" id="KWv-w1-Qqn"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="megusta.png"/>
+                                <connections>
+                                    <action selector="trollfaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g35-uF-52f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29h-jR-ALc">
+                                <rect key="frame" x="256" y="90" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="LPP-RO-Ova"/>
+                                    <constraint firstAttribute="width" constant="65" id="Sz4-P5-eZ0"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="me_gusta_by_rober_raik-d4clrpu.png"/>
+                                <connections>
+                                    <action selector="MeGustaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3yX-EF-gXx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dx9-oG-PLy">
+                                <rect key="frame" x="476" y="12" width="113" height="57"/>
+                                <color key="backgroundColor" red="1" green="0.99034621879184959" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="113" id="2WN-kr-sId"/>
+                                    <constraint firstAttribute="height" constant="113" id="L48-aR-N3T"/>
+                                    <constraint firstAttribute="width" constant="142" id="Roi-4k-EJh"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="57" id="oFg-k5-2Hk"/>
+                                </constraints>
+                                <state key="normal" title="Back Camera"/>
+                                <connections>
+                                    <action selector="switchCameraButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W16-uY-J4t"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a meme " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bB-GM-85u">
+                                <rect key="frame" x="236" y="267" width="129" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="129" id="AMx-iX-qcO"/>
+                                    <constraint firstAttribute="height" constant="66" id="t0f-vb-hV2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcp-z5-bch">
+                                <rect key="frame" x="20" y="72" width="146" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.36555909436659995" blue="0.96149289297414475" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gkl-Ag-p0b"/>
+                                    <constraint firstAttribute="width" constant="146" id="q4R-JX-VL0"/>
+                                </constraints>
+                                <state key="normal" title="Click for meme filters">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ShowFaces:" destination="BYZ-38-t0r" eventType="touchUpInside" id="raQ-C6-uXJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dx9-oG-PLy" secondAttribute="trailing" constant="-9" id="2D6-DJ-wF5"/>
+                            <constraint firstItem="SMz-sg-bra" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="241" id="2Oc-i3-jBJ"/>
+                            <constraint firstItem="6bB-GM-85u" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="A0j-2g-Jzq"/>
+                            <constraint firstItem="29h-jR-ALc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="Mcp-tk-rpF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="S7d-Fg-B8f" secondAttribute="trailing" constant="234" id="O50-7F-gdm"/>
+                            <constraint firstItem="6rh-rN-A5j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pra-eM-327"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="SMz-sg-bra" secondAttribute="leading" id="SpH-oO-eOd"/>
+                            <constraint firstItem="6rh-rN-A5j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="315" id="Yat-UA-iqg"/>
+                            <constraint firstItem="S7d-Fg-B8f" firstAttribute="top" secondItem="6rh-rN-A5j" secondAttribute="bottom" constant="22" id="Yxh-CX-Ld2"/>
+                            <constraint firstItem="Dx9-oG-PLy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-8" id="cwr-hk-43t"/>
+                            <constraint firstItem="S7d-Fg-B8f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dNJ-dH-Ycc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dtx-N3-vQR" secondAttribute="trailing" id="dnH-jM-yvl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6rh-rN-A5j" secondAttribute="trailing" constant="246" id="k0a-4R-KPg"/>
+                            <constraint firstItem="Dtx-N3-vQR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="241" id="mGG-0U-OWm"/>
+                            <constraint firstItem="6bB-GM-85u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nsJ-dP-FNf"/>
+                            <constraint firstItem="29h-jR-ALc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oAc-BJ-RJP"/>
+                            <constraint firstItem="1AU-U2-979" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pjI-HY-iIP"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="1AU-U2-979" secondAttribute="leading" id="ppY-nm-0mT"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Xcp-z5-bch" secondAttribute="leading" id="pqE-wE-sPo"/>
+                            <constraint firstItem="Dtx-N3-vQR" firstAttribute="top" secondItem="Dx9-oG-PLy" secondAttribute="bottom" constant="136" id="qYX-Ep-eZm"/>
+                            <constraint firstItem="Xcp-z5-bch" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="52" id="wc6-7B-Ub4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ChooseAMeme" destination="6bB-GM-85u" id="fau-2H-8Aj"/>
+                        <outlet property="FilterButton" destination="Xcp-z5-bch" id="oya-KQ-e5Q"/>
+                        <outlet property="MeGusta" destination="29h-jR-ALc" id="aIm-qf-Tea"/>
+                        <outlet property="aface" destination="Dtx-N3-vQR" id="LNh-5T-7e8"/>
+                        <outlet property="button" destination="S7d-Fg-B8f" id="uXJ-Cm-NxI"/>
+                        <outlet property="faceFilterSwitch" destination="1AU-U2-979" id="RRU-ji-Atd"/>
+                        <outlet property="pepe" destination="SMz-sg-bra" id="tqK-op-qMD"/>
+                        <outlet property="switchCamOutlet" destination="Dx9-oG-PLy" id="QBC-fJ-qk8"/>
+                        <outlet property="trollface" destination="6rh-rN-A5j" id="f20-Ax-n0S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="389" y="608"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="awesome_face.png" width="736" height="736"/>
+        <image name="me_gusta_by_rober_raik-d4clrpu.png" width="908" height="879"/>
+        <image name="megusta.png" width="3713" height="4069"/>
+        <image name="pepe.png" width="871" height="917"/>
+    </resources>
+</document>
